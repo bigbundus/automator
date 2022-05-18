@@ -1,0 +1,29 @@
+goal:
+
+build a system that can accomplish repetive tasks
+using python autogui
+
+examples:
+
+download all lectures from academind
+download all parrot rooms froms patreon
+download all sam hyde gumroads...
+
+should be pretty easy, but take time make it really good and durable
+something I'll come back to in a year and use.
+
+So, key outline:
+
+task_manager
+task
+
+some goal: download all academind lectures
+break it down into tasks: download a single lecture, and advance to the next page
+
+pyautogui notes:
+dual monitor - left monitor is negative x...
+does this depend on where the terminal is?
+doesnt seem to
+so lets confine usage to a single monitor
+
+seem to have to wait a bit between scrolling and clicking - otherwise it doesnt get the right screenshot (?)
